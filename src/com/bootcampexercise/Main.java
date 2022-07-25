@@ -1,4 +1,4 @@
-package com.company;
+package com.bootcampexercise;
 
 public class Main {
 
