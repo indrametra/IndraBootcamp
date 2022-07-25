@@ -1,7 +1,7 @@
 package com.bootcampexercise.module2.activity;
 
 public class NumToWords {
-    public static void main(String[] args) { //activity 4 switch case
+    public static void main(String[] args) { 
 
         int x = 5;
         switch (x) {
