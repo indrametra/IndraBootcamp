@@ -32,12 +32,12 @@ public class Calculator {
     private static int divide(int x, int y) {
         int divValue = 0;
         if (x == 0 && y == 0) {
-            divValue = 0;
+            System.out.println("Dividing 0 with 0 is not possible");
         } else if (y == 0) {
-            divValue = x;
+            System.out.println("Division by 0 is not possible");
         } else {
             divValue = (x/y);
         }
         return divValue;
     }
- }
+}
