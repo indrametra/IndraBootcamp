@@ -4,11 +4,11 @@ package com.bootcampexercise.module2.activity;
 
         public static void main(String[] args) {
 
-        // Table from 1 to 10
+        // Table from 11 to 20
         for (int i = 11; i <= 20; i++) {
             System.out.println("*** Table of "+i + " ***");
-            for (int j = 11; j <= 20; j++) {
-                System.out.println(i + "X" + j +" = " + i*j);
+            for (int j = 1; j <= 10; j++) {
+                System.out.println(i + " X " + j +" = " + i*j);
         }
         }
         // Table from 11 to 20

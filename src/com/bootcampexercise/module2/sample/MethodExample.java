@@ -1,28 +1,31 @@
 package com.bootcampexercise.module2.sample;
 
-//public class MethodExample {
-//    public static void main(String[] args) {
-//        MethodExample methodExample = new MethodExample();
-//        String greeting = returnGreetings();
-//        System.out.println(sumOf2Nos(20,30);
-//        System.out.println(methodExample.sumOf2Nos(20,30));
-//        System.out.println(sumOf3rdNos( 20));
-////        greet();//if we don't have parameters
-//        methodExample.greet();
-//    }
-//
-//    public void greet(){
-//        System.out.println("Greetings every");
-//
-//    }
-//    public static String returnGreetings(){
-//        return "Hello Everyone";
-//    }
-//    public static int sumOf2Nos(int x, int y){
-//        return (x+y);
-//    }
-//    public static int sumOf3rdNos(int num3){
-//         return (sumOf2Nos(2,3)+num3);
-//    }
-//}
-//
+public class MethodExample {
+    public static void main(String args[]) {
+
+        // Call static method of same class
+        System.out.println(sumOf2Nos(20, 30));
+        // call static method of different class
+        System.out.println(MethodExample.sumOf2Nos(20, 30));
+
+        // Create object of class and call method using that object
+        MethodExample methodExample = new MethodExample();
+        methodExample.greet();
+    }
+
+    // Method with no return type or parameteres
+    public void greet() {
+        System.out.println("Greetings everyone :)");
+    }
+
+    // method with string return type
+    public String returnGreetings() {
+        return "Hello Everyone";
+    }
+
+    // method with int return type and int parameters
+    public static int sumOf2Nos(int x, int y) {
+        return (x + y);
+    }
+
+}
