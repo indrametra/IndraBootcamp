@@ -7,6 +7,6 @@ public class AddWholeNum {
         for (int i = 50; i<=100; i++){
             sum = sum +i;
         }
-        System.out.println("Sum of first 10 numbers is " + sum);
+        System.out.println("Sum of numbers from 50 to 100 is " + sum);
     }
 }
