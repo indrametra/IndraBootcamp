@@ -16,8 +16,9 @@ public class StaticSample1 {
         StaticSample1 temp2 = new StaticSample1();
         // Initial Value Print
         System.out.println("Shared temp2 initial value " + temp2.SHARED);
-        System.out.println("Shared temp1 initial value " + temp1.SHARED);
+                //static shared
         System.out.println("Not Shared initial temp2 " + temp2.notShared);
+        // not static no shared
         System.out.println("Not Shared initial temp1 " + temp1.notShared);
 
         // Update shared and unshared value of temp1 object and see the impact
