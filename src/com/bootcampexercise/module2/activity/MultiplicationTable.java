@@ -1,4 +1,4 @@
-package com.bootcampexercise.module2.sample;
+package com.bootcampexercise.module2.activity;
 
     public class MultiplicationTable {
 
