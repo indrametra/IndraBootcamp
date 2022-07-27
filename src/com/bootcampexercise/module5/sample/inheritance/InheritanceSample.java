@@ -1,4 +1,4 @@
-package com.bootcampexercise.module5.inheritance.sample;
+package com.bootcampexercise.module5.sample.inheritance;
 
 public class InheritanceSample {
     public static void main(String arg[]) {

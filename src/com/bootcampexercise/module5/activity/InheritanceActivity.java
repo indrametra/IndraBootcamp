@@ -1,5 +1,8 @@
 package com.bootcampexercise.module5.activity;
 
+import com.bootcampexercise.module5.activity.Employee_I;
+import com.bootcampexercise.module5.activity.Person_I;
+
 public class InheritanceActivity {
     public static void main(String[] args) {
 
