@@ -26,18 +26,19 @@ public class Person {
         this.height = height;
     }
 
-    public int bodyMassIndex(int weight, int height) {
+    public String bodyMassIndex(int weight, int height) {
         int imb = weight / (height * height);
         String BMI;
 
         if (weight <= 0) {
-            BMI = "Please check your weight!"; }
+            BMI = "Please check your weight!"+imb; }
         else if (height <= 0) {
-            BMI = "Please check your height!"; }
+            BMI = "Please check your height!"+imb; }
         else {
-            BMI="Your BMI is practically ideal for every way"; }
+            BMI="Your BMI"+imb+" is practically ideal for every way"; }
         return BMI;
     }
+
 }
 
 
@@ -48,5 +49,3 @@ public class Person {
     // TODO: Please add some checks for max weight and height (kg and meter are their units)
     //TODO: Also add some checks that value shouldn't be negative and 0
 //    Note: All TODOs should be implemented in single method
-        return BMI;
-}
