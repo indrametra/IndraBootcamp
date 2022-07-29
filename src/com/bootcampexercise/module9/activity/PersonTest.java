@@ -1,5 +1,6 @@
 package com.bootcampexercise.module9.activity;
 
+//import com.bootcampexercise.module9.sample.MyCalculator;
 import com.bootcampexercise.module9.sample.Product;
 import junit.framework.TestCase;
 
@@ -36,4 +37,21 @@ public class PersonTest extends TestCase {
     }
 
     //TODO: create unit test for getBodyMassIndex method
+//    public void testThrowException(){
+//
+//        try {
+//
+//            theCalculator.getSum(2, 1);
+//            theCalculator.getDifference(3, 3);
+//            theCalculator.getProduct(0, 1);
+//            theCalculator.getQuotient(1, 0);
+//            new MyCalculator();
+//
+//        } catch (Exception e) {
+//            fail();
+//        }
+//        catch (Error e) {
+//            fail();
+//        }
+//    }
 }
